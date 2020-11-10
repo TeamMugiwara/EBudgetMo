@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".home"></activity>
+        <activity android:name=".Bills"></activity>
+        <activity android:name=".Expense" />
+        <activity android:name=".Mylist" />
+        <activity android:name=".Savings" />
+        <activity android:name=".Income" />
+        <activity android:name=".home" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
